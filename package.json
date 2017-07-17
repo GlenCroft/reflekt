@@ -1,0 +1,36 @@
+{
+  "name": "reflekt",
+  "version": "1.0.0-alpha.1",
+  "description": "Portfolio project",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "start http://localhost:8000/ && webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GlenCroft/reflekt.git"
+  },
+  "author": "Glen Croft",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GlenCroft/reflekt/issues"
+  },
+  "homepage": "https://github.com/GlenCroft/reflekt#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "css-loader": "^0.28.4",
+    "cssnano": "^3.10.0",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "html-webpack-plugin": "^2.29.0",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.6",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "stylelint-config-standard": "^16.0.0",
+    "stylelint-webpack-plugin": "^0.8.0",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0"    
+  }
+}

@@ -1,0 +1,15 @@
+// Reset
+
+@import '../../node_modules/normalize.css/normalize';
+
+// 1. Change from `box-sizing: content-box` so that `width` is not affected by `padding` or `border`.
+
+html {
+  box-sizing: border-box; // 1
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; // 1
+}
